@@ -2,6 +2,6 @@
 
 <template>
   <PublicNavbar />
-  <slot />
+  <NuxtPage />
   <PublicFooter />
 </template>
