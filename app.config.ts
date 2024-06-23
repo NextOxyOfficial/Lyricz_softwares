@@ -7,7 +7,7 @@ export default defineAppConfig({
     },
     container: {
       base: "mx-auto",
-      padding: "px-2 sm:px-6 lg:px-0",
+      padding: "px-0 sm:px-0 lg:px-0",
       constrained: "max-w-7xl",
     },
   },

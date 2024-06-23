@@ -5,5 +5,6 @@ definePageMeta({
 </script>
 
 <template>
-  <HomeBanner />
+  <!-- <HomeBanner /> -->
+  <HomeOurPartners />
 </template>
