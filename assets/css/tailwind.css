@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply scroll-smooth;
+}
+
+body {
+  font-family: "Hind Siliguri", sans-serif;
+}
