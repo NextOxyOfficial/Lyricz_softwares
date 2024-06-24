@@ -22,7 +22,7 @@
         ><nuxtImg src="/brand/brand3.png" class="w-32 mx-auto"
       /></nuxt-link>
 
-      <nuxt-link to="https://"
+      <nuxt-link to="https://uscodes.com"
         ><nuxtImg src="/brand/brand4.png" class="w-32 mx-auto"
       /></nuxt-link>
     </section>

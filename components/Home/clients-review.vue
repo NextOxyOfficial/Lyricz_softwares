@@ -26,11 +26,11 @@ onMounted(() => {
 </script>
 
 <template>
-  <section class="mb-20">
+  <section class="mb-20 md:mb-28">
     <UContainer>
       <section class="md:flex">
         <div
-          class="md:flex-1 md:flex flex-col md:items-center md:justify-center"
+          class="md:w-1/w md:flex-1 md:flex flex-col md:items-center md:justify-center"
         >
           <CommonSectionTitle
             preTitle="Testimonials"
@@ -50,7 +50,7 @@ onMounted(() => {
           />
         </div>
 
-        <div class="px-2 mt-8 flex-1">
+        <div class="p-4 mt-8 flex-1 md:w-1/2">
           <UCarousel
             ref="carouselRef"
             v-slot="{ item }"
@@ -70,24 +70,44 @@ onMounted(() => {
             arrows
           >
             <div
-              class="p-4 flex flex-col justify-center items-center gap-4 bg-gray-200 rounded-lg"
+              class="p-4 flex flex-col justify-center items-center gap-4 bg-gray-100 rounded-lg"
             >
               <img
                 :src="item"
-                class="rounded-full size-12 block mx-auto"
+                class="rounded-full size-16 block mx-auto"
                 draggable="false"
               />
-              <p class="text-center">
+              <p class="text-center text-gray-700">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Provident suscipit optio obcaecati expedita? Repellat odit
                 asperiores obcaecati quia perspiciatis earum!
               </p>
               <div>
-                <UIcon name="i-heroicons-bell-solid" />
-                <UIcon name="i-heroicons-bell-solid" />
-                <UIcon name="i-heroicons-bell-solid" />
-                <UIcon name="i-heroicons-bell-solid" />
-                <UIcon name="i-heroicons-bell-solid" />
+                <UIcon
+                  class="text-yellow-500 text-2xl"
+                  name="material-symbols:star"
+                  dynamic
+                />
+                <UIcon
+                  class="text-yellow-500 text-2xl"
+                  name="material-symbols:star"
+                  dynamic
+                />
+                <UIcon
+                  class="text-yellow-500 text-2xl"
+                  name="material-symbols:star"
+                  dynamic
+                />
+                <UIcon
+                  class="text-yellow-500 text-2xl"
+                  name="material-symbols:star"
+                  dynamic
+                />
+                <UIcon
+                  class="text-yellow-500 text-2xl"
+                  name="material-symbols:star"
+                  dynamic
+                />
               </div>
               <p class="font-medium text-2xl text-gray-600">Wilium Page</p>
               <p>Digital Marketer</p>
