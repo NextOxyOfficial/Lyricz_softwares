@@ -64,19 +64,21 @@
               Enter your email address to register to our newsletter
               subscription
             </li>
-            <li>
-              <input
-                class="w-full py-2 rounded-lg px-2"
-                placeholder="enter your email....."
-                type="email"
-              />
-            </li>
-            <li
-              class="bg-[#ee4a62] text-white font-semibold text-md text-center py-2 rounded-lg hover:bg-[#f74661]"
-            >
-              Subscribe
-              <UIcon name="material-symbols:arrow-right-alt" dynamic />
-            </li>
+            <div class="space-y-2 md:flex md:items-center gap-4 md:space-y-0">
+              <li>
+                <input
+                  class="w-full py-2 rounded-lg px-2"
+                  placeholder="enter your email....."
+                  type="email"
+                />
+              </li>
+              <li
+                class="bg-[#ee4a62] text-white font-semibold text-md text-center py-2 rounded-lg hover:bg-[#f74661] md:w-1/2"
+              >
+                Subscribe
+                <UIcon name="material-symbols:arrow-right-alt" dynamic />
+              </li>
+            </div>
           </ul>
         </div>
       </div>

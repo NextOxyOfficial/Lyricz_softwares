@@ -1,6 +1,6 @@
 <template>
   <div
-    class="text-center mb-10"
+    class="text-center"
     :class="alignment"
     data-aos-delay="150"
     data-aos="fade-up"
