@@ -1,9 +1,11 @@
 <script setup></script>
 
 <template>
-  <UContainer>
-    <section class="py-14 bg-black px-4">
-      <div class="grid grid-cols-1 gap-6 border-b border-gray-800 pb-16">
+  <section class="py-14 bg-[#111212] px-4">
+    <UContainer>
+      <div
+        class="grid grid-cols-1 gap-6 border-b border-gray-800 pb-16 md:grid-cols-4"
+      >
         <!-- Description -->
         <div>
           <NuxtImg src="/logo/dark-logo.png" class="w-36 pb-4" />
@@ -84,6 +86,6 @@
         <nuxt-link to="/" class="text-blue-400">Lyricz Softwares</nuxt-link>
         All Rights Reserved
       </p>
-    </section>
-  </UContainer>
+    </UContainer>
+  </section>
 </template>

@@ -1,17 +1,17 @@
 <template>
   <div
-    class="text-center"
+    class="text-center mb-10"
     :class="alignment"
     data-aos-delay="150"
     data-aos="fade-up"
     data-aos-duration="800"
   >
     <span
-      class="uppercase text-gray-800 font-bold text-sm"
+      class="uppercase text-gray-600 font-medium text-sm"
       :class="preTitleClass"
       v-if="preTitle"
-      >{{ preTitle }}</span
-    >
+      >{{ preTitle }}
+    </span>
     <h2 class="text-3xl font-bold text-black">{{ title }}</h2>
     <span v-if="!disableMark">
       <svg
