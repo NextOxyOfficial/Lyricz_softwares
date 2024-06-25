@@ -1,34 +1,29 @@
 <script setup></script>
 
 <template>
-  <div class="mb-20 bg-[url('/banner/banner.jpg')]">
+  <div class="mb-20 bg-[url('/banner/banner.jpg')] relative z-0">
+    <div class="absolute w-full h-full bg-black opacity-50 bottom -z-10"></div>
     <UContainer>
       <div
-        class="flex flex-col md:flex-row items-center bg-repeat-x bg-cover h-[500px] md:h-[700px] bg-center"
+        class="flex flex-col md:flex-row items-center bg-repeat-x bg-cover h-[600px] md:h-[700px] bg-center z-10"
       >
-        <div class="md:w-1/2 lg:w-2/3">
-          <h1
-            class="text-4xl md:text-6xl lg:text-7xl text-white font-bold mb-6"
-          >
-            Welcome to our <br class="hidden md:block" />
-            <span class="text-indigo-500">Awesome</span> Website
+        <div
+          class="md:w-[50%] text-center md:text-left py-12 md:pt-0 px-4 space-y-4 md:space-y-8"
+        >
+          <h1 class="text-[#f8b81f] text-2xl uppercase">
+            Welcome To lyricz Softwares
           </h1>
-          <p class="text-lg md:text-xl lg:text-2xl text-gray-400 mb-8">
-            We create beautiful and functional websites for businesses of all
-            sizes.
+          <h1 class="text-white font-bold text-4xl md:text-5xl">
+            A mother software company? We don't just code, we care.
+          </h1>
+          <p class="text-white font-medium text-lg px-4 md:px-0">
+            Our company provides software for entrepreneurs and startup to help
+            with business and grow-plan duties.
           </p>
-          <div class="flex gap-2">
-            <a
-              href="#"
-              class="bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-3 px-6 rounded-md"
-              >Get Started
-            </a>
-            <a
-              href="#"
-              class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-3 px-6 rounded-md"
-              >Learn More
-            </a>
-          </div>
+          <CommonButton
+            label="Learn More"
+            icon="material-symbols:arrow-right-alt-rounded"
+          />
         </div>
       </div>
     </UContainer>
