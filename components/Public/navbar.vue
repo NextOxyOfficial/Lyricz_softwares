@@ -1,5 +1,18 @@
 <script setup></script>
 
 <template>
-  <h1>This is Navbar Page</h1>
+  <UContainer>
+    <section>
+      <div class="flex items-center w-full">
+        <NuxtImg src="/logo/white-logo.png" />
+        <ul class="flex justify-between">
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Our Services</li>
+          <li>Faqs</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+    </section>
+  </UContainer>
 </template>
