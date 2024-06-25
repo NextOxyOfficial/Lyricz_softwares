@@ -5,7 +5,9 @@ definePageMeta({
 </script>
 
 <template>
-  <!-- <HomeBanner /> -->
+  <HomeBanner />
+  <HomeOurDevelopedProducts />
+  <HomeStats />
   <HomeGetInTouch />
   <HomeClientsReview />
   <HomeOurPartners />

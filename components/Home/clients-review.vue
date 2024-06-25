@@ -67,7 +67,6 @@ onMounted(() => {
             }"
             class="rounded-lg overflow-hidden"
             indicators
-            arrows
           >
             <div
               class="p-4 flex flex-col justify-center items-center gap-4 bg-gray-100 rounded-lg"

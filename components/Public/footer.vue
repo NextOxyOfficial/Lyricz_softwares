@@ -1,4 +1,4 @@
-<script setup></script>
+<script lang="" setup></script>
 
 <template>
   <section class="py-14 bg-[#111212] px-4">
@@ -34,8 +34,8 @@
         <div>
           <p class="text-white font-semibold text-2xl mb-4">Online Platform</p>
           <ul class="text-gray-300 space-y-2">
-            <li><n-link to="about-us-two">About Us</n-link></li>
-            <li><n-link to="/services">Our Services</n-link></li>
+            <li><NuxtLink to="about-us-two">About Us</NuxtLink></li>
+            <li><NuxtLink to="/services">Our Services</NuxtLink></li>
             <li>
               <a target="_blank" href="https://www.oxymanager.com/login"
                 >Business Management</a
@@ -48,12 +48,12 @@
         <div>
           <p class="text-white font-semibold text-2xl mb-4">Links</p>
           <ul class="text-gray-300 space-y-2">
-            <li><n-link to="/faq">FAQ's</n-link></li>
-            <li><n-link to="/privacy-policy">Privacy Policy</n-link></li>
+            <li><NuxtLink to="/faq">FAQ's</NuxtLink></li>
+            <li><NuxtLink to="/privacy-policy">Privacy Policy</NuxtLink></li>
             <li>
-              <n-link to="/terms-condition">Terms &amp; Condition</n-link>
+              <NuxtLink to="/terms-condition">Terms &amp; Condition</NuxtLink>
             </li>
-            <li><n-link to="/contact-us">Contact Us</n-link></li>
+            <li><NuxtLink to="/contact-us">Contact Us</NuxtLink></li>
           </ul>
         </div>
         <!-- Contacts -->
