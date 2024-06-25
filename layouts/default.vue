@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <PublicNavbar />
-  <NuxtPage />
-  <PublicFooter />
+	<PublicNavbar />
+	<NuxtPage />
+	<PublicFooter />
 </template>

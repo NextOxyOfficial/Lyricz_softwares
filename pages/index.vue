@@ -1,10 +1,12 @@
 <script lang="" setup>
 definePageMeta({
-  layout: "default",
+	layout: "default",
 });
 </script>
 
 <template>
-  <!-- <HomeBanner /> -->
-  <HomeOurPartners />
+	<!-- <HomeBanner /> -->
+	<HomeAboutUs />
+	<HomeOurProducts />
+	<HomeOurPartners />
 </template>
