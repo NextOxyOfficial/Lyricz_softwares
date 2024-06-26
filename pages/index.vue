@@ -1,5 +1,3 @@
-import type { HomeTarget } from "#build/components";
-
 <script lang="" setup>
 definePageMeta({
   layout: "default",
@@ -8,14 +6,12 @@ definePageMeta({
 
 <template>
   <HomeBanner />
-
   <HomeAboutUs />
-
   <HomeOurProducts />
-
-  <HomeTarget />
-
+  <HomeBanner />
+  <HomeOurDevelopedProducts />
   <HomeStats />
   <HomeGetInTouch />
+  <HomeClientsReview />
   <HomeOurPartners />
 </template>
