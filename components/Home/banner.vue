@@ -1,16 +1,16 @@
 <script setup></script>
 
 <template>
-  <div class="mb-20 bg-[url('/banner/banner.jpg')] relative z-0">
-    <div class="absolute w-full h-full bg-black opacity-50 bottom -z-10"></div>
+  <div class="bg-[url('/banner/banner.jpg')] bg-no-repeat container mx-auto">
+    <!-- <div class="absolute w-full h-full bg-black opacity-50 bottom -z-10"></div> -->
     <UContainer>
       <div
-        class="flex flex-col md:flex-row items-center bg-repeat-x bg-cover h-[600px] md:h-[700px] bg-center z-10"
+        class="flex flex-col md:flex-row items-center bg-cover h-[600px] md:h-[700px] bg-center"
       >
         <div
           class="md:w-[50%] text-center md:text-left py-12 md:pt-0 px-4 space-y-4 md:space-y-8"
         >
-          <h1 class="text-[#f8b81f] text-2xl uppercase">
+          <h1 class="text-[#f8b81f] text-xl uppercase font-bold">
             Welcome To lyricz Softwares
           </h1>
           <h1 class="text-white font-bold text-4xl md:text-5xl">

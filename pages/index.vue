@@ -8,7 +8,6 @@ definePageMeta({
   <HomeBanner />
   <HomeAboutUs />
   <HomeOurProducts />
-  <HomeBanner />
   <HomeOurDevelopedProducts />
   <HomeStats />
   <HomeGetInTouch />

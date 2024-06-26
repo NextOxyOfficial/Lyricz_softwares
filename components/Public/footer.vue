@@ -4,7 +4,7 @@
   <section class="py-14 bg-[#111212] px-4">
     <UContainer>
       <div
-        class="grid grid-cols-1 gap-6 border-b border-gray-800 pb-16 md:grid-cols-4"
+        class="grid grid-cols-1 gap-6 border-b border-gray-800 pb-16 md:grid-cols-4 bg"
       >
         <!-- Description -->
         <div>
@@ -34,7 +34,7 @@
         <div>
           <p class="text-white font-semibold text-2xl mb-4">Online Platform</p>
           <ul class="text-gray-300 space-y-2">
-            <li><NuxtLink to="about-us-two">About Us</NuxtLink></li>
+            <li><NuxtLink to="#">About Us</NuxtLink></li>
             <li><NuxtLink to="#">Our Services</NuxtLink></li>
             <li>
               <a target="_blank" href="https://www.oxymanager.com/login"
