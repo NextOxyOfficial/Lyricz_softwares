@@ -26,7 +26,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <section class="mb-20 md:mb-28">
+  <section class="mb-20 md:mb-2">
     <UContainer>
       <section class="md:flex">
         <div
