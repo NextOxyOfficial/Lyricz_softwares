@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div class="bg-white py-24 sm:py-32">
+  <div class="bg-white pb-20 sm:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-2xl lg:max-w-none">
         <dl
