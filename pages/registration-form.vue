@@ -4,7 +4,7 @@
       <UForm
         :validate="validate"
         :state="state"
-        class="space-y-4"
+        class="space-y-4 max-w-xl mx-auto border rounded-lg p-5"
         @submit="onSubmit"
       >
         <div v-if="step === 1">
@@ -47,9 +47,14 @@
           </UFormGroup>
         </div>
 
-        <UButton type="button" size="md" v-if="step !== 3" @click="next">
-          Next
-        </UButton>
+        <div class="flex gap-4">
+          <UButton type="button" size="md" v-if="step !== 3" @click="next">
+            Next
+          </UButton>
+          <UButton type="button" size="md" v-if="step !== 3" @click="prev">
+            Previous
+          </UButton>
+        </div>
         <UButton type="submit" size="md" v-if="step === 3"> Submit </UButton>
       </UForm>
     </UCard>
@@ -64,12 +69,22 @@ const step = ref(1);
 const state = reactive({
   email: undefined,
   password: undefined,
+  name: undefined,
+  ps: undefined,
+  district: undefined,
+  zip: undefined,
+  phone: undefined,
 });
 
 const validate = (state: any): FormError[] => {
   const errors = [];
   if (!state.email) errors.push({ path: "email", message: "Required" });
   if (!state.password) errors.push({ path: "password", message: "Required" });
+  if (!state.name) errors.push({ path: "name", message: "Required" });
+  if (!state.ps) errors.push({ path: "ps", message: "Required" });
+  if (!state.district) errors.push({ path: "district", message: "Required" });
+  if (!state.zip) errors.push({ path: "zip", message: "Required" });
+  if (!state.phone) errors.push({ path: "phone", message: "Required" });
   return errors;
 };
 
@@ -80,6 +95,12 @@ async function onSubmit(event: FormSubmitEvent<any>) {
 
 function next() {
   step.value++;
+}
+function prev() {
+  if (step.value == 1) {
+    return;
+  }
+  step.value--;
 }
 </script>
 
