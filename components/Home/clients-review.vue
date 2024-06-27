@@ -26,7 +26,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <section class="mb-20 md:mb-28">
+  <section class="mb-20 md:mb-2">
     <UContainer>
       <section class="md:flex">
         <div
@@ -35,7 +35,7 @@ onMounted(() => {
           <CommonSectionTitle
             preTitle="Testimonials"
             title="What Our Clients Say About Us"
-            alignment="text-center"
+            alignment=""
           />
 
           <p class="text-gray-400 text-sm text-center px-2">

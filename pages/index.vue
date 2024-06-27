@@ -10,7 +10,9 @@ definePageMeta({
   <HomeOurProducts />
   <HomeOurDevelopedProducts />
   <HomeStats />
+  <HomeTarget />
   <HomeGetInTouch />
   <HomeClientsReview />
   <HomeOurPartners />
+  <HomeTest />
 </template>
