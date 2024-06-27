@@ -10,12 +10,12 @@ export default {
   props: {
     value: {
       type: Number,
-      required: true,
+      required: false,
       default: 100,
     },
     title: {
       type: String,
-      required: true,
+      required: false,
       default: "Title",
     },
     name: {

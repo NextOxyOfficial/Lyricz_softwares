@@ -35,7 +35,7 @@ onMounted(() => {
           <CommonSectionTitle
             preTitle="Testimonials"
             title="What Our Clients Say About Us"
-            alignment="text-center"
+            alignment=""
           />
 
           <p class="text-gray-400 text-sm text-center px-2">
