@@ -7,7 +7,7 @@ const products = [
 </script>
 
 <template>
-  <section class="bg-[#f9f6f2] py-20">
+  <section class="bg-[#f9f6f2] py-8 md:py-20">
     <UContainer>
       <CommonSectionTitle
         alignment="text-center"
@@ -15,11 +15,13 @@ const products = [
         title="See Best of Our Developer"
       />
 
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-5 mb-10">
+      <div class="flex flex-wrap gap-5 mb-10">
         <div v-for="product in products" :key="product.id">
-          <div class="relative">
-            <img class="rounded-2xl" :src="product.img" alt="Image" />
-            <div class="absolute left-10 -bottom-5 bg-white m-10">
+          <div class="relative flex flex-col justify-center hover:opacity-50">
+            <img class="rounded-2xl mx-2" :src="product.img" alt="Image" />
+            <div
+              class="md:absolute left-10 -bottom-5 bg-white -mt-10 mb-12 mx-4 p-8 rounded-2xl shadow-lg"
+            >
               <h1>{{ product.title }}</h1>
               <p>
                 OxyManager is a Business all in one Management Tool A complete

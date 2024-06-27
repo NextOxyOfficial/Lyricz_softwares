@@ -5,7 +5,7 @@
     <!-- <div class="absolute w-full h-full bg-black opacity-50 bottom -z-10"></div> -->
     <UContainer>
       <div
-        class="flex flex-col md:flex-row items-center bg-cover h-[600px] md:h-[700px] bg-center"
+        class="flex flex-col md:flex-row items-center bg-cover md:h-[700px] bg-center"
       >
         <div
           class="md:w-[50%] text-center md:text-left py-12 md:pt-0 px-4 space-y-4 md:space-y-8"

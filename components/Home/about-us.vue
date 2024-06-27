@@ -1,6 +1,8 @@
 <template>
   <UContainer>
-    <div class="flex flex-col-reverse md:flex-row mb-72 mt-32">
+    <div
+      class="flex flex-col-reverse md:flex-row mb-12 md:mb-72 mt-12 md:mt-32"
+    >
       <div class="md:w-1/2 mt-14">
         <div class="relative">
           <img
@@ -18,7 +20,7 @@
 
       <div class="md:w-1/2">
         <CommonSectionTitle
-          alignment="!text-left"
+          alignment="md:!text-left "
           preTitle="ABOUT US"
           title="Comprehensive Software Development Company"
         />
