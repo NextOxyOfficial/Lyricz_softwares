@@ -1,6 +1,6 @@
 <template>
   <div :class="classList">
-    <div id="scene">
+    <div class="scene">
       <slot></slot>
     </div>
   </div>
@@ -18,10 +18,15 @@ const props = defineProps({
 });
 
 onMounted(() => {
-  let scene = document.getElementById("scene");
-  let parallaxInstance = new Parallax(scene, {
-    relativeInput: true,
-    hoverOnly: false,
+  let scenes = document.querySelectorAll(".scene");
+
+  scenes.forEach((scene) => {
+    // Your code to handle each scene element
+    let parallaxInstance = new Parallax(scene, {
+      relativeInput: true,
+      hoverOnly: false,
+    });
+    console.log("hello");
   });
 });
 </script>

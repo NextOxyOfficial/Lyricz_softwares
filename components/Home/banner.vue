@@ -1,7 +1,9 @@
 <script setup></script>
 
 <template>
-  <div class="bg-[url('/banner/banner.jpg')] bg-no-repeat container mx-auto">
+  <div
+    class="bg-[url('/banner/banner.jpg')] bg-no-repeat container mx-auto relative"
+  >
     <!-- <div class="absolute w-full h-full bg-black opacity-50 bottom -z-10"></div> -->
     <UContainer>
       <div
@@ -27,5 +29,17 @@
         </div>
       </div>
     </UContainer>
+
+    <CommonParallaxScene class="absolute top-8 left-80">
+      <div data-depth="0.2">sdfsdf</div>
+      <div data-depth="0.1">My fourth Layer!</div>
+      <div data-depth="0.2">My fifth Layer!</div>
+    </CommonParallaxScene>
+
+    <CommonParallaxScene class="absolute top-20 left-20">
+      <div data-depth="0.2">sdfsdf</div>
+      <div data-depth="0.1">My fourth Layer!</div>
+      <div data-depth="0.2">My fifth Layer!</div>
+    </CommonParallaxScene>
   </div>
 </template>
