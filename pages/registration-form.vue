@@ -1,6 +1,60 @@
 <template>
   <UContainer>
     <UCard class="my-10">
+      <ol
+        class="flex justify-center items-center w-full text-xs text-gray-900 font-medium sm:text-base"
+      >
+        <li
+          class="flex w-28 relative text-indigo-600 after:content-[''] after:w-full after:h-0.5 after:inline-block after:absolute lg:after:top-5 after:top-3 after:left-4"
+          :class="step >= 2 ? 'after:bg-indigo-600' : 'after:bg-gray-200'"
+        >
+          <div class="block whitespace-nowrap z-10">
+            <span
+              class="w-6 h-6 bg-gray-50 border-2 rounded-full flex justify-center items-center mx-auto mb-3 text-sm lg:w-10 lg:h-10"
+              :class="
+                step === 1
+                  ? 'border-indigo-600 text-indigo-600'
+                  : step >= 2 && 'bg-indigo-600 text-white'
+              "
+              >1</span
+            >
+            Step 1
+          </div>
+        </li>
+        <li
+          class="flex w-28 relative text-gray-900 after:content-[''] after:w-full after:h-0.5 after:inline-block after:absolute lg:after:top-5 after:top-3 after:left-4"
+          :class="step >= 3 ? 'after:bg-indigo-600' : 'after:bg-gray-200'"
+        >
+          <div class="block whitespace-nowrap z-10">
+            <span
+              class="w-6 h-6 bg-gray-50 border-2 rounded-full flex justify-center items-center mx-auto mb-3 text-sm lg:w-10 lg:h-10"
+              :class="
+                step === 2
+                  ? 'border-indigo-600 text-indigo-600'
+                  : step >= 3 && 'bg-indigo-600 text-white'
+              "
+              >2</span
+            >
+            Step 2
+          </div>
+        </li>
+        <li class="flex w-28 relative text-gray-900">
+          <div class="block whitespace-nowrap z-10">
+            <span
+              class="w-6 h-6 bg-gray-50 border-2 border-gray-200 rounded-full flex justify-center items-center mx-auto mb-3 text-sm lg:w-10 lg:h-10"
+              :class="
+                step === 3
+                  ? ' border-indigo-600 text-indigo-600'
+                  : step >= 3
+                  ? 'bg-indigo-600 text-white'
+                  : 'border-gray-200'
+              "
+              >3</span
+            >
+            Step 3
+          </div>
+        </li>
+      </ol>
       <UForm
         :validate="validate"
         :state="state"
@@ -47,15 +101,15 @@
           </UFormGroup>
         </div>
 
-        <div class="flex gap-4">
+        <div class="flex gap-4 justify-between">
+          <UButton type="button" size="md" :disabled="step === 1" @click="prev">
+            Previous
+          </UButton>
           <UButton type="button" size="md" v-if="step !== 3" @click="next">
             Next
           </UButton>
-          <UButton type="button" size="md" v-if="step !== 3" @click="prev">
-            Previous
-          </UButton>
+          <UButton type="submit" size="md" v-if="step === 3"> Submit </UButton>
         </div>
-        <UButton type="submit" size="md" v-if="step === 3"> Submit </UButton>
       </UForm>
     </UCard>
   </UContainer>
