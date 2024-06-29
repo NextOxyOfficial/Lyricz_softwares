@@ -7,6 +7,8 @@
 </template>
 
 <script setup>
+import Parallax from "parallax-js";
+
 const props = defineProps({
   classList: {
     type: String,
