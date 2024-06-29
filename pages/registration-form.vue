@@ -62,7 +62,9 @@
 </template>
 
 <script setup lang="ts">
-import type { FormError, FormSubmitEvent } from "#ui/types";
+definePageMeta({
+  layout: "affiliate",
+});
 
 const step = ref(1);
 
