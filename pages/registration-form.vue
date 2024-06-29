@@ -75,7 +75,6 @@ const state = reactive({
   zip: undefined,
   phone: undefined,
 });
-
 const validate = (state: any): FormError[] => {
   const errors = [];
   if (!state.email) errors.push({ path: "email", message: "Required" });
