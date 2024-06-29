@@ -25,7 +25,6 @@ onMounted(() => {
       relativeInput: true,
       hoverOnly: false,
     });
-    console.log("hello");
   });
 });
 </script>

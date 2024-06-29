@@ -13,5 +13,4 @@ definePageMeta({
   <HomeGetInTouch />
   <HomeClientsReview />
   <HomeOurPartners />
-  <HomeTest />
 </template>

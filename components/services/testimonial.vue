@@ -117,7 +117,7 @@ const reviews = [
 <template>
   <section class="relative py-10 md:py-24">
     <!-- Title -->
-    <PublicTitle
+    <CommonServiceTitle
       heading="Testimonial"
       title="From getting "
       title2="started"

@@ -31,15 +31,13 @@
     </UContainer>
 
     <CommonParallaxScene class="absolute top-8 left-40 md:left-80">
-      <div data-depth="0.2">sdfsdf</div>
-      <div data-depth="0.1">My fourth Layer!</div>
-      <div data-depth="0.2">My fifth Layer!</div>
+      <NuxtImg src="/banner/shape2.png" alt="Image" />
     </CommonParallaxScene>
 
-    <CommonParallaxScene class="absolute top-20 md:left-20">
-      <div data-depth="0.2">sdfsdf</div>
-      <div data-depth="0.1">My fourth Layer!</div>
-      <div data-depth="0.2">My fifth Layer!</div>
+    <CommonParallaxScene class="absolute top-20 md:-left-4">
+      <div data-depth="0.1">
+        <NuxtImg src="/banner/shape1.png" alt="Image" />
+      </div>
     </CommonParallaxScene>
   </div>
 </template>

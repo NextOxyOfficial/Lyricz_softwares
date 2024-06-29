@@ -12,7 +12,7 @@ const stats = [
     class="w-full flex justify-center items-center bg-gradient-to-b from-[#00AEF03D] to-[#8541CC17]"
   >
     <div class="max-w-7xl mx-auto px-4 py-8 sm:px-6 sm:pt-28 sm:pb-36">
-      <PublicTitle
+      <CommonServiceTitle
         heading="Featured Case Study"
         title="Design startup "
         title2="movement"

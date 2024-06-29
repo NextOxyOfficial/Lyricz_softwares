@@ -2,7 +2,7 @@
   <section class="bg-gradient-to-b from-[#00AEF03D] to-[#8541CC17] pt-24 pb-44">
     <div class="text-center mb-8">
       <!-- Title -->
-      <PublicTitle
+      <CommonServiceTitle
         heading="Top Clients"
         title="solutions for...	"
         title2="We've built "

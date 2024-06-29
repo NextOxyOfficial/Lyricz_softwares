@@ -242,7 +242,7 @@ onMounted(() => {
     class="pt-28 relative bg-gradient-to-b from-[#f7f7f717] to-[#E4F7FF] z-10"
   >
     <!-- Title -->
-    <PublicTitle
+    <CommonServiceTitle
       heading="Featured Case Study"
       title="Design startup "
       title2="movement"
