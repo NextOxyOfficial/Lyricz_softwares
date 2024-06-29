@@ -29,11 +29,11 @@ onMounted(() => {
         </NuxtLink>
         <ul class="hidden md:flex gap-10 text-xl text-gray-700 font-medium">
           <NuxtLink class="hover:text-blue-400 font-bold" to="/">Home</NuxtLink>
-          <NuxtLink class="hover:text-blue-400 font-bold" to="/"
+          <NuxtLink class="hover:text-blue-400 font-bold" to="/about-us"
             >About Us</NuxtLink
           >
-          <NuxtLink class="hover:text-blue-400 font-bold" to="/"
-            >Our Services</NuxtLink
+          <NuxtLink class="hover:text-blue-400 font-bold" to="/services/"
+            >Services</NuxtLink
           >
           <NuxtLink class="hover:text-blue-400 font-bold" to="/">Faqs</NuxtLink>
           <NuxtLink class="hover:text-blue-400 font-bold" to="/"
@@ -90,7 +90,7 @@ onMounted(() => {
             <NuxtLink class="hover:text-blue-400 font-bold" to="/"
               >Home</NuxtLink
             >
-            <NuxtLink class="hover:text-blue-400 font-bold" to="/"
+            <NuxtLink class="hover:text-blue-400 font-bold" to="/about-us"
               >About Us</NuxtLink
             >
             <NuxtLink class="hover:text-blue-400 font-bold" to="/"
