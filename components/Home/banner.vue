@@ -30,13 +30,13 @@
       </div>
     </UContainer>
 
-    <CommonParallaxScene class="absolute top-8 left-80">
+    <CommonParallaxScene class="absolute top-8 left-40 md:left-80">
       <div data-depth="0.2">sdfsdf</div>
       <div data-depth="0.1">My fourth Layer!</div>
       <div data-depth="0.2">My fifth Layer!</div>
     </CommonParallaxScene>
 
-    <CommonParallaxScene class="absolute top-20 left-20">
+    <CommonParallaxScene class="absolute top-20 md:left-20">
       <div data-depth="0.2">sdfsdf</div>
       <div data-depth="0.1">My fourth Layer!</div>
       <div data-depth="0.2">My fifth Layer!</div>

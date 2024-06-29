@@ -32,7 +32,7 @@ onMounted(() => {
         <div
           class="md:w-1/w md:flex-1 md:flex flex-col md:items-center md:justify-center"
         >
-          <CommonSectionTitle
+          <CommonHomeTitle
             preTitle="Testimonials"
             title="What Our Clients Say About Us"
             alignment=""

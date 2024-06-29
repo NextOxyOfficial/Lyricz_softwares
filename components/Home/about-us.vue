@@ -19,7 +19,7 @@
       </div>
 
       <div class="md:w-1/2">
-        <CommonSectionTitle
+        <CommonHomeTitle
           alignment="md:!text-left "
           preTitle="ABOUT US"
           title="Comprehensive Software Development Company"

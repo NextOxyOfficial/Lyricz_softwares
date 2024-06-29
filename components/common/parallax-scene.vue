@@ -7,9 +7,6 @@
 </template>
 
 <script setup>
-import { defineProps, onMounted } from "vue";
-import Parallax from "parallax-js";
-
 const props = defineProps({
   classList: {
     type: String,

@@ -2,7 +2,7 @@
 
 <template>
   <section class="mt-20">
-    <CommonSectionTitle
+    <CommonHomeTitle
       preTitle="our partners"
       title="See Our Partners"
       alignment="text-center"

@@ -1,6 +1,7 @@
 {
-  "name": "nuxt-app",
+  "name": "lyricz-softwares",
   "private": true,
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "build": "nuxt build",

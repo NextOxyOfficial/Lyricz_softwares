@@ -33,7 +33,7 @@ const products = [
 <template>
   <section class="bg-[#f9f6f2] py-8 md:pt-20 md:pb-48">
     <UContainer>
-      <CommonSectionTitle
+      <CommonHomeTitle
         alignment="text-center"
         preTitle="OUR PRODUCTS"
         title="See Best of Our Developer"

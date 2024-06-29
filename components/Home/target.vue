@@ -2,15 +2,6 @@
 
 <template>
   <UContainer>
-    <MouseMove
-      addClassName="size-20"
-      dataDepth="2"
-      data-aos-delay="200"
-      data-aos="fade"
-      data-aos-duration="200"
-      imgSrc="/public/about-us-img/about-image.jpg"
-    />
-
     <section class="flex flex-col md:flex-row px-4 py-12 relative md:mb-60">
       <div class="md:w-1/2">
         <NuxtImg src="/target/target.jpg" class="rounded-lg w-full" />
@@ -18,7 +9,7 @@
       <div
         class="pt-4 md:p-12 md:rounded-lg shadow-lg md:w-1/2 md:absolute md:bg-white right-20 top-60"
       >
-        <CommonSectionTitle
+        <CommonHomeTitle
           alignment="text-center"
           preTitle="Target"
           title="Solution For Businesses of All Industries"

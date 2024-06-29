@@ -5,4 +5,9 @@ export default defineNuxtConfig({
     preference: "light",
   },
   modules: ["@nuxt/ui", "@nuxt/image"],
+  vue: {
+    compilerOptions: {
+      isCustomElement: (tag) => tag === "placeholder",
+    },
+  },
 });
