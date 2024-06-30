@@ -7,12 +7,12 @@
         <div class="relative">
           <img
             class="rounded-2xl"
-            src="/about-us-img/about-image.jpg"
+            src="/home/about-us-img/about-image.jpg"
             alt="image"
           />
           <img
             class="absolute rounded-2xl hidden md:block right-48 -bottom-20 md:right-24 md:-bottom-24"
-            src="/about-us-img/about-image2.jpg"
+            src="/home/about-us-img/about-image2.jpg"
             alt="image"
           />
         </div>

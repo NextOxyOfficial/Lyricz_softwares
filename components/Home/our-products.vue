@@ -2,7 +2,7 @@
 const products = [
   {
     id: "1",
-    img: "/our-products/project-banner3.jpg",
+    img: "/home/our-products/project-banner3.jpg",
     name: "NextOxy",
     title: "Build your Website with NextOxy",
     description:
@@ -11,7 +11,7 @@ const products = [
   },
   {
     id: "2",
-    img: "/our-products/project-banner-1.jpg",
+    img: "/home/our-products/project-banner-1.jpg",
     name: "NextOxy",
     title: "Build your Website with NextOxy",
     description:
@@ -20,7 +20,7 @@ const products = [
   },
   {
     id: "3",
-    img: "/our-products/project-banner2.jpg",
+    img: "/home/our-products/project-banner2.jpg",
     name: "NextOxy",
     title: "Build your Website with NextOxy",
     description:
@@ -31,7 +31,9 @@ const products = [
 </script>
 
 <template>
-  <section class="bg-[#f9f6f2] py-8 md:pt-20 md:pb-48">
+  <section
+    class="bg-[url('/home/our-products/bg-image.svg')] bg-cover bg-no-repeat py-8 md:pt-20 md:pb-48"
+  >
     <UContainer>
       <CommonHomeTitle
         alignment="text-center"

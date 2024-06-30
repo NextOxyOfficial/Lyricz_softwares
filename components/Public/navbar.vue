@@ -19,7 +19,7 @@ onMounted(() => {
 
 <template>
   <section
-    :class="scrollPosition > 250 ? 'sticky top-0 z-10' : ''"
+    :class="scrollPosition > 250 ? 'sticky top-0 z-20' : ''"
     class="bg-gray-100 py-2 md:py-4 transition-all duration-1000 ease-in-out"
   >
     <UContainer>

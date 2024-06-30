@@ -14,21 +14,27 @@
       >
         <nuxt-link to="https://nextoxy.com"
           ><NuxtImg
-            src="/partners/partner1.png"
+            src="/home/partners/partner1.png"
             alt="Image"
             class="w-32 md:w-40 mx-auto"
         /></nuxt-link>
 
         <nuxt-link to="https://lyriczmotors.com"
-          ><NuxtImg src="/partners/partner2.png" class="w-32 md:w-40 mx-auto"
+          ><NuxtImg
+            src="/home/partners/partner2.png"
+            class="w-32 md:w-40 mx-auto"
         /></nuxt-link>
 
         <nuxt-link to="https://oxyous.com"
-          ><NuxtImg src="/partners/partner3.png" class="w-32 md:w-40 mx-auto"
+          ><NuxtImg
+            src="/home/partners/partner3.png"
+            class="w-32 md:w-40 mx-auto"
         /></nuxt-link>
 
         <nuxt-link to="https://uscodes.com"
-          ><NuxtImg src="/partners/partner4.png" class="w-32 md:w-40 mx-auto"
+          ><NuxtImg
+            src="/home/partners/partner4.png"
+            class="w-32 md:w-40 mx-auto"
         /></nuxt-link>
       </section>
     </UContainer>

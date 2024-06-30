@@ -2,7 +2,7 @@
 
 <template>
   <div
-    class="bg-[url('/banner/banner.jpg')] bg-no-repeat container mx-auto relative"
+    class="bg-[url('/home/banner/banner.jpg')] bg-no-repeat container mx-auto relative"
   >
     <!-- <div class="absolute w-full h-full bg-black opacity-50 bottom -z-10"></div> -->
     <UContainer>
@@ -31,13 +31,19 @@
     </UContainer>
 
     <CommonParallaxScene class="absolute top-8 left-40 md:left-80">
-      <NuxtImg src="/banner/shape2.png" alt="Image" />
+      <div data-depth="0.1">
+        <NuxtImg src="/home/banner/shape2.png" alt="Image" />
+      </div>
     </CommonParallaxScene>
 
     <CommonParallaxScene class="absolute top-20 md:-left-4">
-      <div data-depth="0.1">
-        <NuxtImg src="/banner/shape1.png" alt="Image" />
+      <div data-depth="0.2">
+        <NuxtImg src="/home/banner/shape1.png" alt="Image" />
       </div>
+      <div
+        data-depth="0.1"
+        class="border border-gray-500 size-40 rounded-full -z-10 shadow-xl"
+      ></div>
     </CommonParallaxScene>
   </div>
 </template>
