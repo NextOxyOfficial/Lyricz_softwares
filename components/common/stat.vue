@@ -1,7 +1,9 @@
 <template>
-  <div class="counter-container">
-    <div class="title">{{ title }}</div>
-    <div ref="counter" class="counter">{{ currentValue }}</div>
+  <div class="counter-container shadow-lg py-8 hover:shadow-2xl rounded-lg">
+    <div class="text-sm text-gray-700 font-medium uppercase">{{ title }}</div>
+    <div ref="counter" class="counter" :class="tailwindClassColor">
+      {{ currentValue }}{{ postfix }}
+    </div>
   </div>
 </template>
 
@@ -13,15 +15,20 @@ export default {
       required: false,
       default: 100,
     },
+    tailwindClassColor: {
+      type: String,
+      required: false,
+      default: "text-black",
+    },
+    postfix: {
+      type: String,
+      required: false,
+      default: "",
+    },
     title: {
       type: String,
       required: false,
       default: "Title",
-    },
-    name: {
-      type: String,
-      required: false,
-      default: "Name",
     },
     duration: {
       type: Number,
@@ -97,19 +104,13 @@ export default {
 <style scoped>
 .counter-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   align-items: center;
   justify-content: center;
 }
 
-.title {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
 .counter {
   font-size: 48px;
-  color: #333;
   display: flex;
   justify-content: center;
   align-items: center;
