@@ -2,7 +2,7 @@
 
 <template>
   <div
-    class="bg-[url('/home/banner/banner.jpg')] bg-no-repeat container mx-auto relative"
+    class="bg-[#f8f5f1] md:bg-[url('/home/banner/banner.jpg')] bg-no-repeat container mx-auto relative"
   >
     <!-- <div class="absolute w-full h-full bg-black opacity-50 bottom -z-10"></div> -->
     <UContainer>
