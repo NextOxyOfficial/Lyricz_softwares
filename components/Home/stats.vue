@@ -12,9 +12,24 @@
           postfix="K"
           title="website Traffic"
         />
-        <CommonStat />
-        <CommonStat />
-        <CommonStat />
+        <CommonStat
+          value="20.5"
+          tailwindClassColor="text-green-500 font-bold"
+          postfix="K"
+          title="website Traffic"
+        />
+        <CommonStat
+          value="20.5"
+          tailwindClassColor="text-green-500 font-bold"
+          postfix="K"
+          title="website Traffic"
+        />
+        <CommonStat
+          value="20.5"
+          tailwindClassColor="text-green-500 font-bold"
+          postfix="K"
+          title="website Traffic"
+        />
       </div>
     </UContainer>
   </div>
