@@ -79,7 +79,6 @@ onMounted(() => {
             </div>
           </template>
 
-          <Placeholder class="h-full" />
           <ul
             class="flex gap-6 flex-col items-center text-xl text-gray-700 font-medium"
           >

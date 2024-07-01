@@ -71,15 +71,13 @@
       </div>
 
       <!-- Parallax Scene 1 -->
-      <CommonParallaxScene class="hidden md:block absolute right-0 -z-40">
-        <div
-          data-depth="0.1"
-          class="border border-gray-500 p-24 rounded-full bg-url[(/home/target/shape3.png)]"
-        >
+      <CommonParallaxScene class="hidden md:block absolute right-0 -z-10">
+        <div data-depth="0.1" class="border border-gray-500 p-24 rounded-full">
           <div class="bg-gray-200 size-32 rounded-full"></div>
         </div>
-
-        <div data-depth="0.4" class="mt-20 ml-16">
+      </CommonParallaxScene>
+      <CommonParallaxScene class="hidden md:block absolute right-16">
+        <div data-depth="0.4" class="mt-20 ml-16 z-50">
           <NuxtImg src="/home/target/shape1.png" alt="Image" />
         </div>
       </CommonParallaxScene>
