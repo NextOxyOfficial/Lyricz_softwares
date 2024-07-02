@@ -39,7 +39,7 @@ async function onSubmit(event: FormSubmitEvent<any>) {
       >
         <!-- Information & Social Links -->
         <div
-          class="md:w-1/2 rounded-lg bg-gray-100 p-4 md:p-8 flex-1 flex flex-col space-y-4"
+          class="md:w-1/2 rounded-lg bg-gray-100 p-4 mx-2 md:p-8 flex-1 flex flex-col space-y-4"
         >
           <!-- Address -->
           <div class="space-y-4 flex-1">
@@ -84,7 +84,7 @@ async function onSubmit(event: FormSubmitEvent<any>) {
 
         <!-- Form -->
         <div
-          class="md:w-1/2 rounded-lg bg-gray-100 md:p-8 flex-1 flex flex-col"
+          class="md:w-1/2 rounded-lg bg-gray-100 md:p-8 flex-1 flex flex-col p-4 mx-2"
         >
           <!-- Form Heading -->
           <div class="pb-8">
@@ -99,7 +99,7 @@ async function onSubmit(event: FormSubmitEvent<any>) {
             @submit="onSubmit"
           >
             <!-- First Name And Last Name -->
-            <div class="flex items-center justify-between">
+            <div class="flex flex-col md:flex-row md:justify-between">
               <UFormGroup label="First Name" name="firstName">
                 <UInput
                   class="w-full"
