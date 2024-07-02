@@ -3,5 +3,5 @@
 <template>
   <PublicAffiliateNavbar />
   <NuxtPage />
-  <!-- <PublicFooter /> -->
+  <PublicFooter />
 </template>
