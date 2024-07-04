@@ -41,16 +41,16 @@ const products = [
 				title="See Best of Our Developer"
 			/>
 
-			<div class="flex flex-wrap gap-5 mb-10">
-				<div v-for="product in products" :key="product.id">
-					<div class="relative flex flex-col justify-center group">
+			<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mb-10">
+				<div v-for="product in products" :key="product.id" class="flex">
+					<div class="relative flex flex-col justify-between group w-full">
 						<img
 							class="rounded-2xl mx-2 group-hover:scale-105 transition-all duration-1000 group-hover:opacity-50"
 							:src="product.img"
 							alt="Image"
 						/>
 						<div
-							class="md:absolute -bottom-5 bg-white -mt-10 mb-12 mx-4 md:mx-8 p-8 rounded-2xl shadow-lg space-y-4 md:-bottom-52"
+							class="md:absolute -bottom-5 bg-white -mt-10 mb-12 mx-4 md:mx-8 p-8 rounded-2xl shadow-lg space-y-4 md:-bottom-52 flex flex-col"
 						>
 							<h1
 								class="uppercase text-gray-700 text-xl font-medium hover:text-[#1ab69d] cursor-pointer"
@@ -62,7 +62,7 @@ const products = [
 							>
 								{{ product.title }}
 							</h1>
-							<p class="hover:text-[#1ab69d] cursor-pointer">
+							<p class="hover:text-[#1ab69d] cursor-pointer flex-1">
 								{{ product.description }}
 							</p>
 							<p class="hover:text-[#1ab69d] cursor-pointer">
