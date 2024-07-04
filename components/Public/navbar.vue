@@ -23,22 +23,98 @@ onMounted(() => {
     class="bg-gray-100 py-2 md:py-4 transition-all duration-1000 ease-in-out"
   >
     <UContainer>
-      <div class="flex items-center w-full justify-between">
+      <div class="flex items-center w-full justify-between md:px-8 lg:px-0">
         <NuxtLink to="/">
           <NuxtImg src="/logo/white-logo.png" alt="Logo" class="h-12 md:h-16" />
         </NuxtLink>
         <ul class="hidden md:flex gap-10 text-xl text-gray-700 font-medium">
-          <NuxtLink class="hover:text-blue-400 font-bold" to="/">Home</NuxtLink>
-          <NuxtLink class="hover:text-blue-400 font-bold" to="/about-us"
+          <NuxtLink class="hover:text-[#406aec] font-bold" to="/"
+            >Home</NuxtLink
+          >
+          <NuxtLink class="hover:text-[#406aec] font-bold" to="/about-us"
             >About Us</NuxtLink
           >
-          <NuxtLink class="hover:text-blue-400 font-bold" to="/services/"
-            >Services</NuxtLink
-          >
-          <NuxtLink class="hover:text-blue-400 font-bold" to="/#faq"
+          <NuxtLink class="hover:text-[#406aec] font-bold" to="/services/"
+            ><UPopover mode="hover" :popper="{ arrow: true }">
+              Services
+              <template #panel>
+                <div class="w-[80vw] px-12 py-8">
+                  <ul
+                    class="flex justify-between text-gray-700 text-base font-light"
+                  >
+                    <li>
+                      <p class="text-xl font-bold mb-2 border-b pb-2">Design</p>
+                      <p>UI Design</p>
+                      <p>UX Design</p>
+                      <p>Application Design</p>
+                      <p>Graphic Design</p>
+                      <p>Logo Design</p>
+                      <p>Branding</p>
+                      <p>Web Design</p>
+                      <p>Motion Graphics</p>
+                      <p>Illustration</p>
+                    </li>
+                    <li>
+                      <p class="text-xl font-bold mb-2 border-b pb-2">
+                        Development
+                      </p>
+                      <p>Web Development</p>
+                      <p>Software Development</p>
+                      <p>App Development</p>
+                      <p>Front-end Development</p>
+                      <p>Back-end Development</p>
+                      <p>Full-stack Development</p>
+                      <p>E-commerce Development</p>
+                      <p>CMS Development</p>
+                      <p>API Integration</p>
+                    </li>
+                    <li>
+                      <p class="text-xl font-bold mb-2 border-b pb-2">
+                        Hosting & Domain
+                      </p>
+                      <p>Shared Hosting</p>
+                      <p>VPS Hosting</p>
+                      <p>Dedicated Hosting</p>
+                      <p>Cloud Hosting</p>
+                      <p>Managed Hosting</p>
+                      <p>Domain Registration</p>
+                      <p>Domain Transfer</p>
+                      <p>SSL Certificates</p>
+                      <p>Email Hosting</p>
+                    </li>
+                    <li>
+                      <p class="text-xl font-bold mb-2 border-b pb-2">
+                        Digital Marketing
+                      </p>
+                      <p>Social Media Marketing</p>
+                      <p>Search Engine Optimization (SEO)</p>
+                      <p>Pay-Per-Click Advertising (PPC)</p>
+                      <p>Content Marketing</p>
+                      <p>Email Marketing</p>
+                      <p>Influencer Marketing</p>
+                      <p>Affiliate Marketing</p>
+                      <p>Video Marketing</p>
+                      <p>Online Reputation Management</p>
+                    </li>
+                    <li>
+                      <p class="text-xl font-bold mb-2 border-b pb-2">
+                        Our Products
+                      </p>
+                      <p>NextOxy</p>
+                      <p>Oxy Manager</p>
+                      <p>Lyricz Motors</p>
+                      <p>Lyricz Import Export</p>
+                    </li>
+                  </ul>
+                </div>
+              </template>
+            </UPopover>
+          </NuxtLink>
+
+          <NuxtLink class="hover:text-[#406aec] font-bold" to="/#faq"
             >Faqs</NuxtLink
           >
-          <NuxtLink class="hover:text-blue-400 font-bold" to="/contact"
+          <NuxtLink class="hover:text-[#406aec] font-bold" to="/contact"
             >Contact</NuxtLink
           >
         </ul>
@@ -88,19 +164,19 @@ onMounted(() => {
           <ul
             class="flex gap-6 flex-col items-center text-xl text-gray-700 font-medium"
           >
-            <NuxtLink class="hover:text-blue-400 font-bold" to="/"
+            <NuxtLink class="hover:text-[#406aec] font-bold" to="/"
               >Home</NuxtLink
             >
-            <NuxtLink class="hover:text-blue-400 font-bold" to="/about-us"
+            <NuxtLink class="hover:text-[#406aec] font-bold" to="/about-us"
               >About Us</NuxtLink
             >
-            <NuxtLink class="hover:text-blue-400 font-bold" to="/"
+            <NuxtLink class="hover:text-[#406aec] font-bold" to="/"
               >Our Services</NuxtLink
             >
-            <NuxtLink class="hover:text-blue-400 font-bold" to="/"
+            <NuxtLink class="hover:text-[#406aec] font-bold" to="/"
               >Faqs</NuxtLink
             >
-            <NuxtLink class="hover:text-blue-400 font-bold" to="/"
+            <NuxtLink class="hover:text-[#406aec] font-bold" to="/"
               >Contact</NuxtLink
             >
           </ul>
