@@ -1,5 +1,5 @@
 <template>
-  <section class="w-full h-[1100px] md:h-[800px] relative">
+  <section id="aboutus" class="w-full h-[1100px] md:h-[800px] relative">
     <UContainer>
       <div class="relative z-10">
         <div
