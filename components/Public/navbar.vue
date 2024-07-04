@@ -35,8 +35,10 @@ onMounted(() => {
           <NuxtLink class="hover:text-blue-400 font-bold" to="/services/"
             >Services</NuxtLink
           >
-          <NuxtLink class="hover:text-blue-400 font-bold" to="/">Faqs</NuxtLink>
-          <NuxtLink class="hover:text-blue-400 font-bold" to="/"
+          <NuxtLink class="hover:text-blue-400 font-bold" to="#faq"
+            >Faqs</NuxtLink
+          >
+          <NuxtLink class="hover:text-blue-400 font-bold" to="/contact"
             >Contact</NuxtLink
           >
         </ul>
