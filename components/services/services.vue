@@ -1,3 +1,4 @@
+<script setup lang="ts"></script>
 <template>
   <div class="bg-[#f2f8ff] px-2 py-12 md:pt-40 md:pb-28 relative">
     <!-- Title -->
