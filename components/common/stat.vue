@@ -11,9 +11,9 @@
 export default {
   props: {
     value: {
-      type: Number,
+      type: String,
       required: false,
-      default: 100,
+      default: "100",
     },
     tailwindClassColor: {
       type: String,

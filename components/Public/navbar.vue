@@ -35,7 +35,7 @@ onMounted(() => {
           <NuxtLink class="hover:text-blue-400 font-bold" to="/services/"
             >Services</NuxtLink
           >
-          <NuxtLink class="hover:text-blue-400 font-bold" to="#faq"
+          <NuxtLink class="hover:text-blue-400 font-bold" to="/#faq"
             >Faqs</NuxtLink
           >
           <NuxtLink class="hover:text-blue-400 font-bold" to="/contact"
@@ -85,7 +85,6 @@ onMounted(() => {
             </div>
           </template>
 
-          <Placeholder class="h-full" />
           <ul
             class="flex gap-6 flex-col items-center text-xl text-gray-700 font-medium"
           >

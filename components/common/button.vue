@@ -1,11 +1,9 @@
 <template>
-
-    <button :class="class">
-      <UButton size="md" color="primary" variant="outline">
-        {{ label }}<UIcon :name="icon" dynamic d />
-      </UButton>
-    </button>
-  
+  <button :class="class">
+    <UButton size="xl" color="primary" variant="outline">
+      {{ label }}<UIcon :name="icon" dynamic d />
+    </UButton>
+  </button>
 </template>
 
 <script>

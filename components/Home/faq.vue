@@ -41,7 +41,7 @@ const items = [
 </script>
 
 <template>
-  <section class="md:pb-20">
+  <section id="faq" class="md:pb-20">
     <UContainer>
       <section class="flex flex-col gap-4 mx-2 p-4 md:flex-row items-center">
         <!-- Image -->
