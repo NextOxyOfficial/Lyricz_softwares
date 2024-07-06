@@ -34,6 +34,7 @@ async function onSubmit(event: FormSubmitEvent<any>) {
 				alignment="text-center"
 			/>
 
+<<<<<<< HEAD
 			<div
 				class="flex flex-col md:flex-row justify-center items-stretch gap-12 md:gap-16 mt-8"
 			>
@@ -53,6 +54,24 @@ async function onSubmit(event: FormSubmitEvent<any>) {
 							<hr />
 						</div>
 					</div>
+=======
+      <div
+        class="flex flex-col md:flex-row justify-center items-stretch gap-12 md:gap-16 mt-8"
+      >
+        <!-- Information  Social Links -->
+        <div
+          class="md:w-1/2 rounded-lg bg-gray-100 p-4 mx-2 md:p-8 flex-1 flex flex-col space-y-4"
+        >
+          <!-- Address -->
+          <div class="space-y-4 flex-1">
+            <div class="flex flex-col h-full">
+              <p class="text-2xl md:text-3xl font-semibold">Address</p>
+              <p class="mb-3">Riverside 25, San Francisco, California</p>
+              <NuxtLink to="/" class="underline">View on Maps</NuxtLink>
+              <hr />
+            </div>
+          </div>
+>>>>>>> 3a3b9182400068c163b70f419108887410dce0bb
 
 					<!-- Contact Number -->
 					<div class="space-y-4 flex-1">
