@@ -13,11 +13,13 @@
             QUALITY
           </h2>
 
-          <button
-            class="bg-[#00B8FF] rounded-xl px-12 py-3 md:px-20 md:py-6 text-sm md:text-2xl font-bold text-white md:!mt-20 shadow-2xl hover:bg-[#00B8FF] hover:cursor-pointer"
+          <NuxtLink to="/contact"
+            ><button
+              class="bg-[#00B8FF] rounded-xl px-12 py-3 md:px-20 md:py-6 text-sm md:text-2xl font-bold text-white md:!mt-20 shadow-2xl hover:bg-[#00B8FF] hover:cursor-pointer"
+            >
+              Start Now
+            </button></NuxtLink
           >
-            Start Now
-          </button>
         </div>
         <div>
           <img

@@ -7,7 +7,7 @@
     >
       <div class="text-xl md:text-2xl">
         <span class="block text-center font-semibold">Get In Touch:</span
-        ><span>support@lyriczsoftwares.com</span>
+        ><span>contact@lyriczsoftwares.com</span>
       </div>
       <div
         class="rounded-full border-gray-300 border-4 text-black font-semibold text-center size-14 mx-auto bg-white flex items-center justify-center text-2xl"

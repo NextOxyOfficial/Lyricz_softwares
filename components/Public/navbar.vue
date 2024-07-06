@@ -31,12 +31,16 @@ onMounted(() => {
           <NuxtLink class="hover:text-[#406aec] font-bold" to="/"
             >Home</NuxtLink
           >
-          <NuxtLink class="hover:text-[#406aec] font-bold" to="/about-us"
+          <NuxtLink class="hover:text-[#406aec] font-bold" to="/#aboutus"
             >About Us</NuxtLink
           >
-          <NuxtLink class="hover:text-[#406aec] font-bold" to="/services/"
+          <NuxtLink class="hover:text-[#406aec] font-bold" to="/services"
             ><UPopover mode="hover" :popper="{ arrow: true }">
-              Services
+              <NuxtLink to="/services" class="flex items-center"
+                >Services
+                <UIcon name="i-heroicons-chevron-down-20-solid" size="xl"
+              /></NuxtLink>
+
               <template #panel>
                 <div class="w-[80vw] px-12 py-8">
                   <ul

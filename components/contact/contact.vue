@@ -44,7 +44,7 @@ async function onSubmit(event: FormSubmitEvent<any>) {
           <!-- Address -->
           <div class="space-y-4 flex-1">
             <div class="flex flex-col h-full">
-              <p class="text-3xl font-semibold">Address</p>
+              <p class="text-2xl md:text-3xl font-semibold">Address</p>
               <p class="mb-3">Riverside 25, San Francisco, California</p>
               <NuxtLink to="/" class="underline">View on Maps</NuxtLink>
               <hr />
@@ -54,7 +54,7 @@ async function onSubmit(event: FormSubmitEvent<any>) {
           <!-- Contact Number -->
           <div class="space-y-4 flex-1">
             <div class="flex flex-col h-full">
-              <p class="text-3xl font-semibold">Contact Number</p>
+              <p class="text-2xl md:text-3xl font-semibold">Contact Number</p>
               <p class="mb-3">+1 123 456 7890</p>
               <NuxtLink to="/" class="underline">Call Now</NuxtLink>
               <hr />
@@ -64,7 +64,7 @@ async function onSubmit(event: FormSubmitEvent<any>) {
           <!-- Email Address -->
           <div class="space-y-4 flex-1">
             <div class="flex flex-col h-full">
-              <p class="text-3xl font-semibold">Email</p>
+              <p class="text-2xl md:text-3xl font-semibold">Email</p>
               <p class="mb-3">contact@example.com</p>
               <NuxtLink to="/" class="underline">Send Email</NuxtLink>
               <hr />
@@ -74,7 +74,7 @@ async function onSubmit(event: FormSubmitEvent<any>) {
           <!-- Social Media Icons -->
           <div class="space-y-4 flex-1">
             <div class="flex flex-col h-full">
-              <p class="text-3xl font-semibold">Social Media</p>
+              <p class="text-2xl md:text-3xl font-semibold">Social Media</p>
               <p class="mb-3">Follow us on social media</p>
               <NuxtLink to="/" class="underline">Follow</NuxtLink>
               <hr />
@@ -88,7 +88,9 @@ async function onSubmit(event: FormSubmitEvent<any>) {
         >
           <!-- Form Heading -->
           <div class="pb-8">
-            <p class="text-3xl font-semibold">Fill the form below</p>
+            <p class="text-2xl md:text-3xl font-semibold">
+              Fill the form below
+            </p>
             <p>We will respond to you within the next 24 hrs</p>
           </div>
 

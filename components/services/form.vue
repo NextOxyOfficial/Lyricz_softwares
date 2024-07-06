@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-[#8541CC] py-10 md:rounded-t-[100px] -mt-20">
+  <section id="quote" class="bg-[#8541CC] py-10 md:rounded-t-[100px] -mt-20">
     <h4 class="text-center text-white">Let's Work Together</h4>
     <h1 class="text-center text-white text-4xl font-bold">
       Need a successful project?

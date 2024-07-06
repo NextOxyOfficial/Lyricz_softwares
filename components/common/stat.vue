@@ -32,7 +32,7 @@ export default {
     },
     duration: {
       type: Number,
-      default: 1000, // Default duration in milliseconds
+      default: 2000, // Default duration in milliseconds
     },
   },
   data() {

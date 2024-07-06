@@ -1,39 +1,42 @@
-<script setup>
-const stats = [
-  { id: 1, title: "12+", description: "YEARS OF OPATRATION" },
-  { id: 2, title: "3500+", description: "PROJECT DELIVERD" },
-  { id: 3, title: "100+", description: "SPECIALIST" },
-  { id: 4, title: "95%", description: "SUCCESS RATE" },
-];
-</script>
+<script setup></script>
 
 <template>
-  <div
-    class="w-full flex justify-center items-center bg-gradient-to-b from-[#00AEF03D] to-[#8541CC17]"
-  >
-    <div class="max-w-7xl mx-auto px-4 py-8 sm:px-6 sm:pt-28 sm:pb-36">
+  <div class="pb-20 sm:py-32 bg-gradient-to-b from-[#00AEF03D] to-[#8541CC17]">
+    <UContainer>
       <CommonServiceTitle
         heading="Featured Case Study"
         title="Design startup "
         title2="movement"
         :reverse="false"
       />
-      <div class="grid grid-cols-1 gap-5 sm:grid-cols-4 mt-[31px]">
-        <div v-for="stat in stats" :key="stat.id">
-          <div
-            class="bg-gradient-to-b from-[#8541CC17] to-white overflow-hidden shadow rounded-lg"
-          >
-            <div class="px-4 py-5 sm:pt-12 sm:pb-8 h-[202px]">
-              <div class="flex flex-col items-center gap-3">
-                <div class="text-[40px] font-bold">{{ stat.title }}</div>
-                <div class="font-bold text-xl w-[90%] px-8 text-center">
-                  {{ stat.description }}
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div
+        class="mt-16 grid grid-cols-1 gap-4 rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-4 mx-4"
+      >
+        <CommonStat
+          value="12"
+          tailwindClassColor="text-green-500 font-bold"
+          postfix="+"
+          title="Years Of Opearation"
+        />
+        <CommonStat
+          value="3500"
+          tailwindClassColor="text-red-500 font-bold"
+          postfix="+"
+          title="Successful Project"
+        />
+        <CommonStat
+          value="97"
+          tailwindClassColor="text-purple-500 font-bold"
+          postfix="%"
+          title="SATISFACTION RATE"
+        />
+        <CommonStat
+          value="20"
+          tailwindClassColor="text-orange-500 font-bold"
+          postfix="+"
+          title="TOP DEVELOPERS"
+        />
       </div>
-    </div>
+    </UContainer>
   </div>
 </template>

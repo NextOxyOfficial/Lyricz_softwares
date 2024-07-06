@@ -24,8 +24,8 @@
             </li>
             <li>
               <span>Email:</span
-              ><a href="mailto:support@lyriczsoftwares.com" target="_blank">
-                support@lyriczsoftwares.com</a
+              ><a href="mailto:contact@lyriczsoftwares.com" target="_blank">
+                contact@lyriczsoftwares.com</a
               >
             </li>
           </ul>

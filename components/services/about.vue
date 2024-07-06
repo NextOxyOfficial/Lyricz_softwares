@@ -28,11 +28,13 @@
           ever-evolving digital landscape. Let’s bring your digital vision to
           life, together!
         </p>
-        <button
-          class="bg-[#00B8FF] rounded-lg shadow-xl hover:bg-[#00aef3] px-12 py-3 text-sm md:text-2xl font-bold text-white md:py-5"
+        <NuxtLink to="#quote"
+          ><button
+            class="bg-[#00B8FF] rounded-lg shadow-xl hover:bg-[#00aef3] px-12 py-3 text-sm md:text-2xl font-bold text-white md:py-5"
+          >
+            Get A Free Quote
+          </button></NuxtLink
         >
-          Get A Free Quote
-        </button>
       </div>
       <div class="w-1/2 hidden md:block">
         <img src="/services/about-img/flex.png" alt="image" />
