@@ -29,7 +29,7 @@
             <div>
               <p class="text-2xl">Business Management Application</p>
               <p class="text-gray-700">
-                Experienced techinical team. Web & software development.
+                Experienced techinical team. Web &amp; software development.
               </p>
             </div>
           </div>
@@ -44,7 +44,7 @@
               />
             </div>
             <div>
-              <p class="text-2xl">Catchy & Unique Content Ideas</p>
+              <p class="text-2xl">Catchy &amp; Unique Content Ideas</p>
               <p class="text-gray-700">
                 Maximize your sales. Fully managed complete solutions for your
                 business.

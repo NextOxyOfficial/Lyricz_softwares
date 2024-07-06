@@ -15,6 +15,46 @@ onMounted(() => {
   // Initial call to log the scroll position
   logScrollPosition();
 });
+
+const items = [
+  {
+    label: "Getting Started",
+    icon: "i-heroicons-information-circle",
+    defaultOpen: true,
+    slot: "getting-started",
+  },
+  {
+    label: "Installation",
+    icon: "i-heroicons-arrow-down-tray",
+    defaultOpen: true,
+    slot: "installation",
+  },
+  {
+    label: "Theming",
+    icon: "i-heroicons-eye-dropper",
+    defaultOpen: true,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.",
+  },
+  {
+    label: "Layouts",
+    icon: "i-heroicons-rectangle-group",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.",
+  },
+  {
+    label: "Components",
+    icon: "i-heroicons-square-3-stack-3d",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.",
+  },
+  {
+    label: "Utilities",
+    icon: "i-heroicons-wrench-screwdriver",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.",
+  },
+];
 </script>
 
 <template>
@@ -74,7 +114,7 @@ onMounted(() => {
                     </li>
                     <li>
                       <p class="text-xl font-bold mb-2 border-b pb-2">
-                        Hosting & Domain
+                        Hosting Domain
                       </p>
                       <p>Shared Hosting</p>
                       <p>VPS Hosting</p>
@@ -132,7 +172,7 @@ onMounted(() => {
       </div>
 
       <!-- Slide Over -->
-      <USlideover v-model="isOpen" prevent-close>
+      <USlideover class="overflow-y-auto" v-model="isOpen" prevent-close>
         <UCard
           class="flex flex-col flex-1"
           :ui="{
@@ -168,19 +208,36 @@ onMounted(() => {
           <ul
             class="flex gap-6 flex-col items-center text-xl text-gray-700 font-medium"
           >
-            <NuxtLink class="hover:text-[#406aec] font-bold" to="/"
+            <NuxtLink
+              @click="isOpen = false"
+              class="hover:text-[#406aec] font-bold"
+              to="/"
               >Home</NuxtLink
             >
-            <NuxtLink class="hover:text-[#406aec] font-bold" to="/about-us"
+            <NuxtLink
+              @click="isOpen = false"
+              class="hover:text-[#406aec] font-bold"
+              to="/#aboutus"
               >About Us</NuxtLink
             >
-            <NuxtLink class="hover:text-[#406aec] font-bold" to="/"
+
+            <NuxtLink
+              @click="isOpen = false"
+              class="hover:text-[#406aec] font-bold"
+              to="/services"
               >Our Services</NuxtLink
             >
-            <NuxtLink class="hover:text-[#406aec] font-bold" to="/"
+
+            <NuxtLink
+              @click="isOpen = false"
+              class="hover:text-[#406aec] font-bold"
+              to="/#faq"
               >Faqs</NuxtLink
             >
-            <NuxtLink class="hover:text-[#406aec] font-bold" to="/"
+            <NuxtLink
+              @click="isOpen = false"
+              class="hover:text-[#406aec] font-bold"
+              to="/contact"
               >Contact</NuxtLink
             >
           </ul>

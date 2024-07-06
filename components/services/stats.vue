@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div class="pb-20 sm:py-32 bg-gradient-to-b from-[#00AEF03D] to-[#8541CC17]">
+  <div class="py-20 bg-gradient-to-b from-[#00AEF03D] to-[#8541CC17]">
     <UContainer>
       <CommonServiceTitle
         heading="Featured Case Study"

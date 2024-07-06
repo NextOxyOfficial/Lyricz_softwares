@@ -37,7 +37,7 @@ async function onSubmit(event: FormSubmitEvent<any>) {
       <div
         class="flex flex-col md:flex-row justify-center items-stretch gap-12 md:gap-16 mt-8"
       >
-        <!-- Information & Social Links -->
+        <!-- Information  Social Links -->
         <div
           class="md:w-1/2 rounded-lg bg-gray-100 p-4 mx-2 md:p-8 flex-1 flex flex-col space-y-4"
         >
